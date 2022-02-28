@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Buttons Demo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+   crossorigin="anonymous">
+</head>
+<body>
+<style>
+  body{
+  background-color:rgb(101, 228, 228);
+  } 
+
+
+  input {
+    margin: 10px;
+  }
+
+  form {
+    padding: 20px;
+    background-color:rgb(255, 255, 255);
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding-right: 40px;
+  }
+
+  .actions, h2 {
+    text-align: center;
+
+  }
+
+
+</style>
+
+<form action="" method="post">
+
+  <h2>Login</h2>
+  <input class="form-control" type="email" name="email" placeholder="email" required>
+  <input class="form-control"password" name="password" placeholder="password" required>
+  <div class = "actions"><button type="sumbit" class="btn btn-success">login</button> or 
+  <a href="register.html" class="btn btn-danger btn-sm">Register</a>
+  </div>
+</form>
+
+</body>
+</html>
