@@ -1,10 +1,10 @@
-from platform import release
+
 import sqlalchemy as sa
 import sqlalchemy.orm as orm
 import datetime
 from data.modelbase import SqlAlchemyBase
 from data.releases import Release
-import typing
+from typing import List
 
 class Package(SqlAlchemyBase):
   __tablename__ = 'packages'
